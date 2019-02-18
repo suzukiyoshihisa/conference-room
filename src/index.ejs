@@ -1,0 +1,14 @@
+<% const rootPath = './'; const title =
+'title'; const filename = 'index';
+%>
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <%- include(`./templates/_head`, { title, rootPath, filename }) -%>
+  </head>
+
+  <body>
+    <h1 class="text-success">hello world</h1>
+    <p id="jquery">hoge</p>
+  </body>
+</html>
