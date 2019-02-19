@@ -59,3 +59,8 @@ a {
   background-color: #00ff9c;
   color: #ffffff;
 }
+
+section {
+  margin-top: -60px;
+  padding-top: 60px;
+}
